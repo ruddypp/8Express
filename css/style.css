@@ -1,0 +1,107 @@
+body{
+    font-family: 'poppins';
+}
+#particles-js{
+    height: 100%;
+    width: 100%;
+    background-image: url("../assets/imegg2.jpg"); /* Mengubah path dari "./assets/imegg2.jpg" menjadi "../assets/imegg2.jpg" */
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .hero-text p{
+    font-size: 20px;
+    
+}
+
+  @media (max-width: 768px) {
+    #particles-js {
+      height: 400px;
+    }
+    .hero-text {
+      font-size: 30px;
+    }
+  }
+
+.carousel-content {
+    text-align: center;
+  }
+
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+  }
+  .text-shadow {
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 7);
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Mengatur transparansi menjadi 70% */
+  }
+
+
+  #container-p{
+    margin-top: 6%;
+    margin-bottom: 14%;
+  }
+
+  .hider-member{
+    margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .container-satu{
+    max-width: 80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+  .member4{
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px; 
+    margin: 20px;
+  }
+  .member4 .gambar {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px; /* Membuat gambar berada di tengah */
+}
+.member4 img{
+  margin: 10px;
+}
+
+.member4 p {
+    text-align: justify; /* Rata kanan kiri */
+    margin: 0; /* Menghapus margin default */
+  }
